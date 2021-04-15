@@ -58,7 +58,7 @@ daisymorph<-daisy(fruitchar)
 hclustfruit<-hclust(daisymorph, method="average")
 plot(hclustfruit, labels=tomato$Sample, cex=0.9, hang = -1, ylab="Dissimilarity")
 
-#reorder clusterto give mor intuitive display
+#reorder cluster to give more intuitive display
 library(gclus)
 hclustreorde<-reorder.hclust(hclustfruit,daisymorph)
 plot(hclustreorde,labels=tomato$Sample ,cex=0.9, hang = -1, ylab="Dissimilarity")
