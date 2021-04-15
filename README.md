@@ -1,5 +1,5 @@
 **clustering-mixed-data-types**
->*An R script you can use for creating a dendrogram using mixed data types from morphological characters to marker data*
+>*An R script you can use for creating a dendrogram using mixed data types*
 
 **main-objective**
 > This R script was used to create a dendrogram for a master's thesis using mixed data types. Such types are morphological data from fruit, inflorescence and vegetative characters from NPGRL's descriptor's list and gene-specific PCR primers (marker data).
